@@ -8,7 +8,7 @@
     <artifactId>workLearn</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <jackjson.version>2.8.8</jackjson.version>
+        <jackjson.version>2.8.12</jackjson.version>
     </properties>
     <build>
         <plugins>
