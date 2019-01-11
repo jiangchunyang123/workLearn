@@ -1,4 +1,4 @@
-package com.learn.spring.No4;
+package com.learn.spring.Chap4;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -12,7 +12,7 @@ import static com.learn.base.Log4jTestLogger.*;
 @Component
 public class Audience {
 
-    @Pointcut("execution(* com.learn.spring.No4.Performance.perform(..))")
+    @Pointcut("execution(* com.learn.spring.Chap4.Performance.perform(..))")
     public void performance(){
 
     }

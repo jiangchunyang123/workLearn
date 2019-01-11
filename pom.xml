@@ -10,6 +10,7 @@
     <properties>
         <jackjson.version>2.9.7</jackjson.version>
     </properties>
+    <packaging>war</packaging>
     <build>
         <plugins>
             <plugin>
@@ -70,6 +71,11 @@
             <version>4.2.4.RELEASE</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.2.4.RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.6</version>
@@ -80,5 +86,20 @@
             <version> 4.2.4.RELEASE  </version>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 </project>

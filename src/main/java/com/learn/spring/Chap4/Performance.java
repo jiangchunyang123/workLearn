@@ -1,4 +1,4 @@
-package com.learn.spring.No4;
+package com.learn.spring.Chap4;
 
 public interface Performance {
     void perform();
